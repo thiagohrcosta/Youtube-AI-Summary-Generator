@@ -10,7 +10,7 @@ load_dotenv()
 openai.api_key = os.getenv("API_KEY")
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://admin:admin123@localhost:3306/book_ai_app'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://admin:admin123@localhost:3306/youtube_review_ai'
 
 CORS(app)
 
